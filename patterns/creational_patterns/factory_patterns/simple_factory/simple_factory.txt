@@ -1,0 +1,12 @@
+The simple factory is not a pattern, it is more like an idiom,
+however it is used quite often and worth mentioning.
+Basically we encapsulate the object creation from our client
+code to a new class(The factory).
+
+It may seem to be unnecessary to extract that part,
+however in case when we have to create a specific pizza in many
+places, having that encapsulated in one class reduces the
+modification complexity and potential risks.
+
+The examples are inspired by:
+https://www.oreilly.com/library/view/head-first-design/0596007124/ch04.html
