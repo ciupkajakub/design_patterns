@@ -1,0 +1,16 @@
+All factory patterns encapsulate object creation.
+The Factory Method Pattern encapsulates object creation
+by letting subclasses decide what objects to create.
+
+we have the creator class(in our case PizzaStore) which has
+defined a factory_method(create_pizza) which has no implementation
+in the original creator class but is overwritten by the specific
+subclasses, according to the need.
+
+Often the creator class(PizzaStore) contains code that is dependent
+on the object that is produced by
+the subclass(in our case the order_pizza method). The creator class
+never really knows which concrete object was created.
+
+The classes that produce the products(pizzas in our case) are called
+concrete creators(NewYorkPizzaStore, ChicagoPizzaStore).
