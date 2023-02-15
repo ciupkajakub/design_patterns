@@ -1,0 +1,8 @@
+This example and the graph should be validated by someone
+
+Abstract Factory is a creational design pattern that
+lets you produce families of related objects without
+specifying their concrete classes.
+
+example inspired by: https://www.oreilly.com/library/view/head-first-design/0596007124/ch04.html
+additional graph: https://excalidraw.com/#json=XfitSRXcjAyGR0Z_vI9K7,Z_YxAuPoVBr_qRZjp_FchA
